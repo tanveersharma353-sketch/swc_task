@@ -339,7 +339,7 @@ Response: [{ _id, sender, message, timestamp }, ...]
 ### Backend (.env)
 
 | Variable | Description | Example |
-|----------|-------------|---------|
+|----------|-------------|----------|
 | PORT | Server port | `5000` |
 | NODE_ENV | Environment mode | `development` or `production` |
 | DATABASE_URL | MongoDB connection URI | `mongodb+srv://...` |
@@ -349,7 +349,7 @@ Response: [{ _id, sender, message, timestamp }, ...]
 ### Frontend (.env)
 
 | Variable | Description | Example |
-|----------|-------------|---------|
+|----------|-------------|----------|
 | VITE_API_URL | Backend API base URL | `http://localhost:5000` |
 
 ---
@@ -379,7 +379,7 @@ Response: [{ _id, sender, message, timestamp }, ...]
 ## 📚 Tech Stack
 
 | Layer | Technology |
-|-------|-----------|
+|-------|------------|
 | **Backend** | Node.js, Express, Socket.io, MongoDB, Mongoose |
 | **Frontend** | React, Vite, Tailwind CSS, Socket.io-client |
 | **Authentication** | JWT, Bcrypt |
